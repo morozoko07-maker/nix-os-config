@@ -43,6 +43,8 @@
     wget
     git
     inputs.caelestia-shell.packages.x86_64-linux.default
+    hyprland
+    alacritty
   ];
 
   # Main user
