@@ -3,6 +3,7 @@
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
 {
+  inputs,
   config,
   lib,
   pkgs,
@@ -41,6 +42,7 @@
     vim
     wget
     git
+    inputs.caelestia-shell.packages.x86_64-linux.default
   ];
 
   # Main user
